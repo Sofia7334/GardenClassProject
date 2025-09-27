@@ -7,8 +7,8 @@ public class Plant extends Garden {
     private boolean harvestable;
 
     // constructor method
-    public Plant(String type, String species, boolean harvestable){
-        super(type);
+    public Plant(String type, int capacity, String species, boolean harvestable){
+        super(type, capacity);
         this.species = species;
         this.harvestable = harvestable;
     }

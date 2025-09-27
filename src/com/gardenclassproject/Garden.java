@@ -6,7 +6,7 @@ public class Garden {
     public int capacity;
 
     // constructor method:
-    public Garden(String type) {
+    public Garden(String type, int capacity) {
         this.type = type;
         this.capacity = capacity;
     }
