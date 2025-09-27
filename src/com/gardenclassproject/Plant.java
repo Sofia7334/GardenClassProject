@@ -17,7 +17,7 @@ public class Plant extends Garden {
     public void identify(){
         System.out.println("This " + type + " is a " + species + ".");
     }
-    public void check_ripeness(){
+    public void checkRipeness(){
         System.out.println("Harvestable: " + harvestable);
     }
 }

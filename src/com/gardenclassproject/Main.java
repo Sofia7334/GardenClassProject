@@ -12,7 +12,7 @@ public class Main {
 
         Plant vegetable = new Plant("vegetable", 5, "carrot", false);
         vegetable.identify();
-        vegetable.check_ripeness();
+        vegetable.checkRipeness();
 
     }
 }
